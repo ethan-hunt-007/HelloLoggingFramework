@@ -1,0 +1,11 @@
+framework module HelloLoggingFramework {
+  umbrella header "HelloLoggingFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module HelloLoggingFramework.Swift {
+    header "HelloLoggingFramework-Swift.h"
+    requires objc
+}
